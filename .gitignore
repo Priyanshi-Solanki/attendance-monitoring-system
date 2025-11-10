@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+dlib_env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific - Generated files
+TrainingImage/*.jpg
+DlibModel/*.pkl
+DlibModel/*.npy
+Attendance/*.csv
+EmployeeDetails/EmployeeDetails.csv
+TrainingImageLabel/*.yml
+ImagesUnknown/*
+
+# Keep folder structure but ignore contents
+!TrainingImage/.gitkeep
+!DlibModel/.gitkeep
+!Attendance/.gitkeep
+!EmployeeDetails/.gitkeep
+!TrainingImageLabel/.gitkeep
+!ImagesUnknown/.gitkeep
+
+# Large model files (optional - include if you want to share)
+# Uncomment if you DON'T want to upload model files
+# *.dat
+# *.dat.bz2
+# *.whl
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
