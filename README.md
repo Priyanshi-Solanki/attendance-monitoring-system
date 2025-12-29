@@ -42,7 +42,6 @@ Official download links (binary .dat files are inside the .bz2 archives):
 - Face recognition model (download the .bz2 and extract):
    - http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2
 
-If you prefer to host these files with the project, upload them as GitHub Release assets or to a cloud storage (Google Drive / S3) and add the public download link to the README. Example instructions for Releases are provided further below.
 
 ## 🚀 Installation
 
