@@ -1,4 +1,4 @@
-# Face Recognition Attendance System - Dlib Edition
+# Face Recognition Attendance System 
 
 A Tkinter-based face recognition attendance system using **Dlib + SVM** for high-accuracy face recognition. This system can capture face images, train a recognition model, and track attendance in real-time with automatic unknown face detection.
 
