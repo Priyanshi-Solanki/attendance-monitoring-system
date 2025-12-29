@@ -29,14 +29,20 @@ A Tkinter-based face recognition attendance system using **Dlib + SVM** for high
 - `numpy` (for array operations)
 - `tkinter` (usually comes with Python)
 
-### Required Model Files
-The following files must be in the project root directory:
+### Required Model Files (large — do NOT commit)
+The project requires two large Dlib model files placed in the project root:
 - `shape_predictor_68_face_landmarks.dat` (face landmark detector)
 - `dlib_face_recognition_resnet_model_v1.dat` (face recognition model)
 
-**Note:** These files are included in the repository. If missing, download from:
-- [shape_predictor_68_face_landmarks.dat](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) (extract the .bz2 file)
-- [dlib_face_recognition_resnet_model_v1.dat](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2) (extract the .bz2 file)
+Important: these files are large (tens to hundreds of MB). Do NOT commit them into the repository — they bloat git history and can cause push failures. Instead download them and keep them locally or host them as release assets.
+
+Official download links (binary .dat files are inside the .bz2 archives):
+- Shape predictor (download the .bz2 and extract):
+   - http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+- Face recognition model (download the .bz2 and extract):
+   - http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2
+
+If you prefer to host these files with the project, upload them as GitHub Release assets or to a cloud storage (Google Drive / S3) and add the public download link to the README. Example instructions for Releases are provided further below.
 
 ## 🚀 Installation
 
